@@ -2,13 +2,70 @@
 <html>
   <head>
     <style>
-    @font-face {
-    font-family: 'sourcesanspro';
-    font-style: normal;
-    font-weight: 400;
-    font-display: block;
-    src: url(https://design.penpot.app/fonts/sourcesanspro-regular.woff) format('woff');
-  }
+    /* cyrillic-ext */
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/sourcesans3/v15/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8Ky462EH9CsKng.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/sourcesans3/v15/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8Ky462EO9CsKng.woff2) format('woff2');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/sourcesans3/v15/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8Ky462EG9CsKng.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/sourcesans3/v15/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8Ky462EJ9CsKng.woff2) format('woff2');
+  unicode-range: U+0370-0377, U+037A-037F, U+0384-038A, U+038C, U+038E-03A1, U+03A3-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/sourcesans3/v15/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8Ky462EF9CsKng.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+0300-0301, U+0303-0304, U+0308-0309, U+0323, U+0329, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/sourcesans3/v15/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8Ky462EE9CsKng.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(https://design.penpot.app/internal/gfonts/font/sourcesans3/v15/nwpBtKy2OAdR1K-IwhWudF-R9QMylBJAV3Bo8Ky462EK9Cs.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
 /* cyrillic-ext */
 @font-face {
   font-family: 'Montserrat';
@@ -87,24 +144,26 @@ body {
   z-index: 0;
 }
 
-/* Hi I’m Pasan Gamage, a software developer from Sri Lanka (I write Go and Javascript and Typescript, for the most part). Currently, I’m working as a freelance developer while also working on my non-profit social networking platform, Discuit, which is also open-source.
+/* I’m Pasan Gamage, a software developer from Sri Lanka (I write Go and Javascript and Typescript, for the most part). Currently, I’m working as a freelance developer.
 
-On this web */
-.hi-im-pas-bd268ce569b1 {
+On this website, I write about programming, technology, design, and just about anything that interests me.
+
+You c */
+.im-pasan-bd268ce569b1 {
   position: absolute;
-  left: 149.5px;
-  top: 186.5px;
-  width: 575px;
+  left: 149px;
+  top: 214px;
+  width: 577px;
   height: 241px;
 }
-.hi-im-pas-bd268ce569b1 .root-0 {
+.im-pasan-bd268ce569b1 .root-0 {
   
   
   display: flex;
   white-space: break-spaces;
   align-items: flex-start;
 }
-.hi-im-pas-bd268ce569b1 .root-0-paragraph-set-0 {
+.im-pasan-bd268ce569b1 .root-0-paragraph-set-0 {
   display: inline-flex;
   flex-direction: column;
   justify-content: inherit;
@@ -112,13 +171,13 @@ On this web */
   margin-right: 1px;
   vertical-align: top;
 }
-.hi-im-pas-bd268ce569b1 .root-0-paragraph-set-0-paragraph-0 {
+.im-pasan-bd268ce569b1 .root-0-paragraph-set-0-paragraph-0 {
   font-size: 0;
   line-height: 1.2;
   margin: 0;
   text-align: left;
 }
-.hi-im-pas-bd268ce569b1 .root-0-paragraph-set-0-paragraph-0-text-0 {
+.im-pasan-bd268ce569b1 .root-0-paragraph-set-0-paragraph-0-text-0 {
   color: rgba(74, 74, 74, 1);
   text-transform: none;
   
@@ -130,17 +189,17 @@ On this web */
   caret-color: rgba(74, 74, 74, 1);
   text-decoration: none;
   letter-spacing: 0px;
-  font-family: "sourcesanspro";
+  font-family: "Source Sans 3";
   font-style: normal;
   font-weight: 400;
 }
-.hi-im-pas-bd268ce569b1 .root-0-paragraph-set-0-paragraph-1 {
+.im-pasan-bd268ce569b1 .root-0-paragraph-set-0-paragraph-1 {
   font-size: 0;
   line-height: 1.2;
   margin: 0;
   text-align: left;
 }
-.hi-im-pas-bd268ce569b1 .root-0-paragraph-set-0-paragraph-1-text-0 {
+.im-pasan-bd268ce569b1 .root-0-paragraph-set-0-paragraph-1-text-0 {
   
   
   
@@ -155,13 +214,13 @@ On this web */
   
   
 }
-.hi-im-pas-bd268ce569b1 .root-0-paragraph-set-0-paragraph-2 {
+.im-pasan-bd268ce569b1 .root-0-paragraph-set-0-paragraph-2 {
   font-size: 0;
   line-height: 1.2;
   margin: 0;
   text-align: left;
 }
-.hi-im-pas-bd268ce569b1 .root-0-paragraph-set-0-paragraph-2-text-0 {
+.im-pasan-bd268ce569b1 .root-0-paragraph-set-0-paragraph-2-text-0 {
   color: rgba(74, 74, 74, 1);
   text-transform: none;
   
@@ -173,17 +232,17 @@ On this web */
   caret-color: rgba(74, 74, 74, 1);
   text-decoration: none;
   letter-spacing: 0px;
-  font-family: "sourcesanspro";
+  font-family: "Source Sans 3";
   font-style: normal;
   font-weight: 400;
 }
-.hi-im-pas-bd268ce569b1 .root-0-paragraph-set-0-paragraph-3 {
+.im-pasan-bd268ce569b1 .root-0-paragraph-set-0-paragraph-3 {
   font-size: 0;
   line-height: 1.2;
   margin: 0;
   text-align: left;
 }
-.hi-im-pas-bd268ce569b1 .root-0-paragraph-set-0-paragraph-3-text-0 {
+.im-pasan-bd268ce569b1 .root-0-paragraph-set-0-paragraph-3-text-0 {
   
   
   
@@ -198,13 +257,13 @@ On this web */
   
   
 }
-.hi-im-pas-bd268ce569b1 .root-0-paragraph-set-0-paragraph-4 {
+.im-pasan-bd268ce569b1 .root-0-paragraph-set-0-paragraph-4 {
   font-size: 0;
   line-height: 1.2;
   margin: 0;
   text-align: left;
 }
-.hi-im-pas-bd268ce569b1 .root-0-paragraph-set-0-paragraph-4-text-0 {
+.im-pasan-bd268ce569b1 .root-0-paragraph-set-0-paragraph-4-text-0 {
   color: rgba(74, 74, 74, 1);
   text-transform: none;
   
@@ -216,27 +275,27 @@ On this web */
   caret-color: rgba(74, 74, 74, 1);
   text-decoration: none;
   letter-spacing: 0px;
-  font-family: "sourcesanspro";
+  font-family: "Source Sans 3";
   font-style: normal;
   font-weight: 400;
 }
 
-/* Pasan Gamage */
-.pasan-gama-bd260eba5d9c {
+/* Hello! */
+.hello-bd260eba5d9c {
   position: absolute;
   left: 146.5px;
-  top: 124.5px;
+  top: 151.5px;
   width: 418px;
   height: 62px;
 }
-.pasan-gama-bd260eba5d9c .root-0 {
+.hello-bd260eba5d9c .root-0 {
   
   
   display: flex;
   white-space: break-spaces;
   align-items: flex-start;
 }
-.pasan-gama-bd260eba5d9c .root-0-paragraph-set-0 {
+.hello-bd260eba5d9c .root-0-paragraph-set-0 {
   display: inline-flex;
   flex-direction: column;
   justify-content: inherit;
@@ -244,13 +303,13 @@ On this web */
   margin-right: 1px;
   vertical-align: top;
 }
-.pasan-gama-bd260eba5d9c .root-0-paragraph-set-0-paragraph-0 {
+.hello-bd260eba5d9c .root-0-paragraph-set-0-paragraph-0 {
   font-size: 0;
   line-height: 1.2;
   margin: 0;
   text-align: left;
 }
-.pasan-gama-bd260eba5d9c .root-0-paragraph-set-0-paragraph-0-text-0 {
+.hello-bd260eba5d9c .root-0-paragraph-set-0-paragraph-0-text-0 {
   color: transparent;
   text-transform: none;
   background: linear-gradient(to bottom, rgba(99, 145, 165, 0.805) 0%,rgba(124, 137, 187, 0.78) 100%);
@@ -271,28 +330,30 @@ On this web */
   <body>
   <!-- frame: Board -->
 <div class="frame board-bd25da6f6749">
-  <!-- text: Pasan Gamage -->
-  <div class="shape text pasan-gama-bd260eba5d9c">
-    <div class="text-node-html" id="html-text-node-d6e1ad95-c688-80e6-8005-bd260eba5d9c" data-x="508.5" data-y="992.5">
+  <!-- text: Hello! -->
+  <div class="shape text hello-bd260eba5d9c">
+    <div class="text-node-html" id="html-text-node-d6e1ad95-c688-80e6-8005-bd260eba5d9c" data-x="508.5" data-y="1019.5">
       <div class="root rich-text root-0" style="display:flex;white-space:break-spaces;align-items:flex-start" xmlns="http://www.w3.org/1999/xhtml">
         <div class="paragraph-set root-0-paragraph-set-0">
-          <p class="paragraph root-0-paragraph-set-0-paragraph-0" dir="ltr"><span class="text-node root-0-paragraph-set-0-paragraph-0-text-0" style="color:transparent;text-transform:none;background:linear-gradient(to bottom, rgba(99, 145, 165, 0.805) 0%,rgba(124, 137, 187, 0.78) 100%);line-break:auto;overflow-wrap:initial;white-space:break-spaces;font-size:34px;text-rendering:geometricPrecision;caret-color:black;text-decoration:none;--font-id:gfont-montserrat;--fills:[[&quot;^ &quot;,&quot;~:fill-color-gradient&quot;,[&quot;^ &quot;,&quot;~:start-x&quot;,0.6546570663214105,&quot;~:start-y&quot;,0.5912064715146097,&quot;~:end-x&quot;,-0.0269600159318792,&quot;~:end-y&quot;,0.037911949249667766,&quot;~:width&quot;,1,&quot;~:type&quot;,&quot;~:linear&quot;,&quot;~:stops&quot;,[[&quot;^ &quot;,&quot;~:color&quot;,&quot;#6391a5&quot;,&quot;~:offset&quot;,0,&quot;~:opacity&quot;,0.805],[&quot;^ &quot;,&quot;^9&quot;,&quot;#7c89bb&quot;,&quot;^:&quot;,1,&quot;^;&quot;,0.78]]]]];letter-spacing:0px;font-family:&quot;Montserrat&quot;;font-style:normal;font-weight:900">Pasan Gamage</span></p>
+          <p class="paragraph root-0-paragraph-set-0-paragraph-0" dir="ltr"><span class="text-node root-0-paragraph-set-0-paragraph-0-text-0" style="color:transparent;text-transform:none;background:linear-gradient(to bottom, rgba(99, 145, 165, 0.805) 0%,rgba(124, 137, 187, 0.78) 100%);line-break:auto;overflow-wrap:initial;white-space:break-spaces;font-size:34px;text-rendering:geometricPrecision;caret-color:black;text-decoration:none;--font-id:gfont-montserrat;--fills:[[&quot;^ &quot;,&quot;~:fill-color-gradient&quot;,[&quot;^ &quot;,&quot;~:start-x&quot;,0.6546570663214105,&quot;~:start-y&quot;,0.5912064715146097,&quot;~:end-x&quot;,-0.0269600159318792,&quot;~:end-y&quot;,0.037911949249667766,&quot;~:width&quot;,1,&quot;~:type&quot;,&quot;~:linear&quot;,&quot;~:stops&quot;,[[&quot;^ &quot;,&quot;~:color&quot;,&quot;#6391a5&quot;,&quot;~:offset&quot;,0,&quot;~:opacity&quot;,0.805],[&quot;^ &quot;,&quot;^9&quot;,&quot;#7c89bb&quot;,&quot;^:&quot;,1,&quot;^;&quot;,0.78]]]]];letter-spacing:0px;font-family:&quot;Montserrat&quot;;font-style:normal;font-weight:900">Hello!</span></p>
         </div>
       </div>
     </div>
   </div>
-  <!-- text: Hi I’m Pasan Gamage, a software developer from Sri Lanka (I write Go and Javascript and Typescript, for the most part). Currently, I’m working as a freelance developer while also working on my non-profit social networking platform, Discuit, which is also open-source.
+  <!-- text: I’m Pasan Gamage, a software developer from Sri Lanka (I write Go and Javascript and Typescript, for the most part). Currently, I’m working as a freelance developer.
 
-On this web -->
-  <div class="shape text hi-im-pas-bd268ce569b1">
-    <div class="text-node-html" id="html-text-node-d6e1ad95-c688-80e6-8005-bd268ce569b1" data-x="511.49999999999994" data-y="1054.5000000000002">
+On this website, I write about programming, technology, design, and just about anything that interests me.
+
+You c -->
+  <div class="shape text im-pasan-bd268ce569b1">
+    <div class="text-node-html" id="html-text-node-d6e1ad95-c688-80e6-8005-bd268ce569b1" data-x="511" data-y="1082">
       <div class="root rich-text root-0" style="display:flex;white-space:break-spaces;align-items:flex-start" xmlns="http://www.w3.org/1999/xhtml">
         <div class="paragraph-set root-0-paragraph-set-0">
-          <p class="paragraph root-0-paragraph-set-0-paragraph-0" dir="ltr"><span class="text-node root-0-paragraph-set-0-paragraph-0-text-0" style="color:rgba(74, 74, 74, 1);text-transform:none;line-break:auto;overflow-wrap:initial;white-space:break-spaces;font-size:18px;text-rendering:geometricPrecision;caret-color:rgba(74, 74, 74, 1);text-decoration:none;--font-id:sourcesanspro;--fills:[[&quot;^ &quot;,&quot;~:fill-color&quot;,&quot;#4a4a4a&quot;,&quot;~:fill-opacity&quot;,1]];letter-spacing:0px;font-family:&quot;sourcesanspro&quot;;font-style:normal;font-weight:400">Hi I’m Pasan Gamage, a software developer from Sri Lanka (I write Go and Javascript and Typescript, for the most part). Currently, I’m working as a freelance developer while also working on my non-profit social networking platform, Discuit, which is also open-source.</span></p>
-          <p class="paragraph root-0-paragraph-set-0-paragraph-1" dir="ltr"><span class="text-node root-0-paragraph-set-0-paragraph-1-text-0" style="color:rgba(74, 74, 74, 1);text-transform:none;line-break:auto;overflow-wrap:initial;white-space:break-spaces;font-size:18px;text-rendering:geometricPrecision;caret-color:rgba(74, 74, 74, 1);text-decoration:none;--font-id:sourcesanspro;--fills:[[&quot;^ &quot;,&quot;~:fill-color&quot;,&quot;#4a4a4a&quot;,&quot;~:fill-opacity&quot;,1]];letter-spacing:0px;font-family:&quot;sourcesanspro&quot;;font-style:normal;font-weight:400"> </span></p>
-          <p class="paragraph root-0-paragraph-set-0-paragraph-2" dir="ltr"><span class="text-node root-0-paragraph-set-0-paragraph-2-text-0" style="color:rgba(74, 74, 74, 1);text-transform:none;line-break:auto;overflow-wrap:initial;white-space:break-spaces;font-size:18px;text-rendering:geometricPrecision;caret-color:rgba(74, 74, 74, 1);text-decoration:none;--font-id:sourcesanspro;--fills:[[&quot;^ &quot;,&quot;~:fill-color&quot;,&quot;#4a4a4a&quot;,&quot;~:fill-opacity&quot;,1]];letter-spacing:0px;font-family:&quot;sourcesanspro&quot;;font-style:normal;font-weight:400">On this website, I write about programming, technology, design, and just about anything that interests me.</span></p>
-          <p class="paragraph root-0-paragraph-set-0-paragraph-3" dir="ltr"><span class="text-node root-0-paragraph-set-0-paragraph-3-text-0" style="color:rgba(74, 74, 74, 1);text-transform:none;line-break:auto;overflow-wrap:initial;white-space:break-spaces;font-size:18px;text-rendering:geometricPrecision;caret-color:rgba(74, 74, 74, 1);text-decoration:none;--font-id:sourcesanspro;--fills:[[&quot;^ &quot;,&quot;~:fill-color&quot;,&quot;#4a4a4a&quot;,&quot;~:fill-opacity&quot;,1]];letter-spacing:0px;font-family:&quot;sourcesanspro&quot;;font-style:normal;font-weight:400"> </span></p>
-          <p class="paragraph root-0-paragraph-set-0-paragraph-4" dir="ltr"><span class="text-node root-0-paragraph-set-0-paragraph-4-text-0" style="color:rgba(74, 74, 74, 1);text-transform:none;line-break:auto;overflow-wrap:initial;white-space:break-spaces;font-size:18px;text-rendering:geometricPrecision;caret-color:rgba(74, 74, 74, 1);text-decoration:none;--font-id:sourcesanspro;--fills:[[&quot;^ &quot;,&quot;~:fill-color&quot;,&quot;#4a4a4a&quot;,&quot;~:fill-opacity&quot;,1]];letter-spacing:0px;font-family:&quot;sourcesanspro&quot;;font-style:normal;font-weight:400">You can find me also on: Bluesky, X (Twitter), and Github (to contact me directly, feel free to send me an email at hello@previnder.com).</span></p>
+          <p class="paragraph root-0-paragraph-set-0-paragraph-0" dir="ltr"><span class="text-node root-0-paragraph-set-0-paragraph-0-text-0" style="color:rgba(74, 74, 74, 1);text-transform:none;line-break:auto;overflow-wrap:initial;white-space:break-spaces;font-size:18px;text-rendering:geometricPrecision;caret-color:rgba(74, 74, 74, 1);text-decoration:none;--font-id:gfont-source-sans-3;--fills:[[&quot;^ &quot;,&quot;~:fill-color&quot;,&quot;#4a4a4a&quot;,&quot;~:fill-opacity&quot;,1]];letter-spacing:0px;font-family:&quot;Source Sans 3&quot;;font-style:normal;font-weight:400">I’m Pasan Gamage, a software developer from Sri Lanka (I write Go and Javascript and Typescript, for the most part). Currently, I’m working as a freelance developer.</span></p>
+          <p class="paragraph root-0-paragraph-set-0-paragraph-1" dir="ltr"><span class="text-node root-0-paragraph-set-0-paragraph-1-text-0" style="color:rgba(74, 74, 74, 1);text-transform:none;line-break:auto;overflow-wrap:initial;white-space:break-spaces;font-size:18px;text-rendering:geometricPrecision;caret-color:rgba(74, 74, 74, 1);text-decoration:none;--font-id:gfont-source-sans-3;--fills:[[&quot;^ &quot;,&quot;~:fill-color&quot;,&quot;#4a4a4a&quot;,&quot;~:fill-opacity&quot;,1]];letter-spacing:0px;font-family:&quot;Source Sans 3&quot;;font-style:normal;font-weight:400"> </span></p>
+          <p class="paragraph root-0-paragraph-set-0-paragraph-2" dir="ltr"><span class="text-node root-0-paragraph-set-0-paragraph-2-text-0" style="color:rgba(74, 74, 74, 1);text-transform:none;line-break:auto;overflow-wrap:initial;white-space:break-spaces;font-size:18px;text-rendering:geometricPrecision;caret-color:rgba(74, 74, 74, 1);text-decoration:none;--font-id:gfont-source-sans-3;--fills:[[&quot;^ &quot;,&quot;~:fill-color&quot;,&quot;#4a4a4a&quot;,&quot;~:fill-opacity&quot;,1]];letter-spacing:0px;font-family:&quot;Source Sans 3&quot;;font-style:normal;font-weight:400">On this website, I write about programming, technology, design, and just about anything that interests me.</span></p>
+          <p class="paragraph root-0-paragraph-set-0-paragraph-3" dir="ltr"><span class="text-node root-0-paragraph-set-0-paragraph-3-text-0" style="color:rgba(74, 74, 74, 1);text-transform:none;line-break:auto;overflow-wrap:initial;white-space:break-spaces;font-size:18px;text-rendering:geometricPrecision;caret-color:rgba(74, 74, 74, 1);text-decoration:none;--font-id:gfont-source-sans-3;--fills:[[&quot;^ &quot;,&quot;~:fill-color&quot;,&quot;#4a4a4a&quot;,&quot;~:fill-opacity&quot;,1]];letter-spacing:0px;font-family:&quot;Source Sans 3&quot;;font-style:normal;font-weight:400"> </span></p>
+          <p class="paragraph root-0-paragraph-set-0-paragraph-4" dir="ltr"><span class="text-node root-0-paragraph-set-0-paragraph-4-text-0" style="color:rgba(74, 74, 74, 1);text-transform:none;line-break:auto;overflow-wrap:initial;white-space:break-spaces;font-size:18px;text-rendering:geometricPrecision;caret-color:rgba(74, 74, 74, 1);text-decoration:none;--font-id:gfont-source-sans-3;--fills:[[&quot;^ &quot;,&quot;~:fill-color&quot;,&quot;#4a4a4a&quot;,&quot;~:fill-opacity&quot;,1]];letter-spacing:0px;font-family:&quot;Source Sans 3&quot;;font-style:normal;font-weight:400">You can find me also on: Bluesky, X (Twitter), and Github (to contact me directly, feel free to send me an email at pasan52219@gmail.com).</span></p>
         </div>
       </div>
     </div>
